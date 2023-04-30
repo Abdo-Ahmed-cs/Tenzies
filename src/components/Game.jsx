@@ -43,16 +43,16 @@ export default function Game() {
           <div><span>© Abdelrahman Ahmed / {currunt_year}</span></div>
           <div className='game__media'>
             <a href="https://web.facebook.com/profile.php?id=100005933071217" target='_blank'>
-              <FontAwesomeIcon icon={faFacebook} />
+              <FontAwesomeIcon icon={faFacebook} beat/>
             </a>
             <a href="https://twitter.com/Abdo_Megahed03" target='_blank'>
-              <FontAwesomeIcon icon={faTwitter} />
+              <FontAwesomeIcon icon={faTwitter} beat/>
             </a>
             <a href="https://www.linkedin.com/in/abdelrahman-ahmed-saad-b74b35260/" target='_blank'>
-              <FontAwesomeIcon icon={faLinkedinIn} />
+              <FontAwesomeIcon icon={faLinkedinIn} beat/>
             </a>
             <a href="https://github.com/Abdo-Ahmed-cs" target='_blank'>
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} beat/>
             </a>
           </div>
         </footer>
