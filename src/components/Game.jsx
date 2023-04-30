@@ -57,7 +57,7 @@ export default function Game() {
           </div>
         </footer>
 
-        {status == "won" && <Confetti width={window.innerWidth} height={window.innerHeight}/>}
+        {status == "won" && <Confetti width={window.innerWidth} height={window.innerHeight - 1}/>}
     </section>
   )
 }

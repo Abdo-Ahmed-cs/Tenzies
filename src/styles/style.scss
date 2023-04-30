@@ -8,6 +8,7 @@
     align-items: center;
     background-color: $clr-bg;
     position: relative;
+    overflow: hidden;
 
     &__score {
         position: absolute;
