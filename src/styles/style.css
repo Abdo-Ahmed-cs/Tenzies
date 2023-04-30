@@ -1,0 +1,120 @@
+.game {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0B2434;
+  position: relative;
+}
+.game__score {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1.2rem;
+}
+.game__container {
+  background-color: #F5F5F5;
+  padding: 35px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game__header {
+  font-weight: 700;
+  font-size: 3rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  color: #2B283A;
+  margin: 0;
+}
+.game__desc {
+  max-width: 300px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #4A4E74;
+  text-align: center;
+  line-height: 16px;
+  margin: 10px 0;
+}
+.game__dies_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 18px;
+  margin: 10px 0;
+}
+.game button {
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 25px;
+  color: #FFFFFF;
+  outline: transparent;
+  border: none;
+  cursor: pointer;
+}
+.game button:active {
+  transform: scale(0.95);
+}
+.game__die {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20.5889px;
+  color: #2B283A;
+  font-weight: 700;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+  cursor: pointer;
+}
+.game__die:active {
+  transform: scale(0.95);
+}
+.game__die--active {
+  background-color: #59E391;
+}
+.game__credentials {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  color: #FFFFFF;
+  padding: 20px;
+  background-color: #302f2f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.game__media {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+.game__media a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .game__dies_container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    margin: 20px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
