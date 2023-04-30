@@ -6,6 +6,7 @@
   align-items: center;
   background-color: #0B2434;
   position: relative;
+  overflow: hidden;
 }
 .game__score {
   position: absolute;
