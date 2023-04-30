@@ -24,8 +24,8 @@ export default function Game() {
   return (
     <section className='game'>
         <div className='game__score'>
-          <span>Moves : {moves}</span>
-          <span>Best Moves: {bestMoves}</span>
+          <span>Number of rolls : {moves}</span>
+          <span>Currunt best score: {bestMoves}</span>
         </div>
 
         <div className='game__container'>
