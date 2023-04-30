@@ -3,7 +3,7 @@ import "../styles/style.css"
 import {useSelector, useDispatch} from "react-redux"
 import { toggleActive } from '../app/gameSlice'
 
-export default function Die({value, isActive, id}) {
+export default function Dice({value, isActive, id}) {
   const dispatch = useDispatch()
 
   return (

@@ -1,12 +1,13 @@
 import React from 'react'
 import "../styles/style.css"
-import Dice from './die'; 
+
 import {useSelector, useDispatch} from "react-redux"
 import { allDices, playerMoves, playerBestMoves, gameStatus} from '../app/gameSlice'; 
 import { newGame, roll } from '../app/gameSlice';
 import Confetti from 'react-confetti'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faFacebook, faGithub, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import Dice from './Dice';
 
 export default function Game() {
   const currunt_year = new Date().getFullYear()
