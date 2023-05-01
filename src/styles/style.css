@@ -7,6 +7,7 @@
   background-color: #0B2434;
   position: relative;
   overflow: hidden;
+  padding: 0 10px;
 }
 .game__score {
   position: absolute;
@@ -117,5 +118,12 @@
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
     margin: 20px 0;
+  }
+  .game__credentials {
+    font-size: 0.6rem;
+  }
+  .game__media {
+    font-size: 0.8rem;
+    gap: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

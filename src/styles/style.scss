@@ -9,6 +9,7 @@
     background-color: $clr-bg;
     position: relative;
     overflow: hidden;
+    padding: 0 10px;
     
     &__score {
         position: absolute;
@@ -128,6 +129,15 @@
             grid-template-rows: repeat(3, 1fr);
             justify-items: center;
             margin: 20px 0;
+        }
+
+        &__credentials {
+            font-size: 0.6rem;
+        }
+
+        &__media {
+            font-size: 0.8rem;
+            gap: 10px;
         }
     }
 }
